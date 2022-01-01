@@ -1,0 +1,7 @@
+[jobs.lab8]
+
+image = { source = "dockerfile", path = ".", tag = "pascal-lex-example" }
+
+run = [
+  "java lab8 $input $ir",
+]
